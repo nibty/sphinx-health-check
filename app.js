@@ -15,14 +15,17 @@ app.set('view engine', 'ejs');
 // Listen to health check calls
 app.get("/", function(req, res) {
     if (status) {
+        res.status(200);
         res.send("pass");
     } else {
+        res.status(500);
         res.send("failed")
     }
 });
 
 // Listen to all other calls
 app.get("*", function(req, res) {
+    res.status(404);
     res.send("bad route");
 });
 
