@@ -1,0 +1,12 @@
+{
+  "name": "SphinxHealthCheck",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "express": "~4.12.4"
+  },
+  "devDependencies": {
+    "express": "^4.12.4",
+    "sphinxapi": "^1.1.1"
+  }
+}
