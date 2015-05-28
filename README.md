@@ -4,7 +4,8 @@ This was written to work well with haproxy or other load balancers. It preforms 
 at a time and serves a cluster of boxes the same result. 
 
 ## Install ##
-Run: npm install
+npm install
+
 Modify settings in app.js
 
 ## Run ##
